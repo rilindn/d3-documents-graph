@@ -1,0 +1,65 @@
+[
+    {
+        "@id": "http://example.com/document/1",
+        "@type": "schema:Document",
+        "schema:name": "Project Proposal for New Product Launch",
+        "schema:description": "A detailed proposal outlining the strategy and timeline for launching a new product.",
+        "schema:dateCreated": "2024-03-10",
+        "schema:creator": {
+            "@type": "schema:Organization",
+            "schema:name": "InnovateTech Inc."
+        }
+    },
+    {
+        "@id": "http://example.com/document/2",
+        "@type": "schema:Document",
+        "schema:name": "Environmental Impact Assessment Report",
+        "schema:description": "An assessment report detailing the environmental impact of a construction project.",
+        "schema:datePublished": "2024-04-25",
+        "schema:author": {
+            "@type": "schema:Person",
+            "schema:name": "Dr. Emily Green"
+        },
+        "schema:locationCreated": {
+            "@type": "schema:Place",
+            "schema:name": "City Center Construction Site",
+            "schema:address": "123 Main Street, Anytown, USA"
+        }
+    },
+    {
+        "@id": "http://example.com/document/3",
+        "@type": "schema:Document",
+        "schema:name": "Employee Handbook",
+        "schema:description": "A comprehensive handbook containing company policies, procedures, and guidelines for employees.",
+        "schema:datePublished": "2024-04-01",
+        "schema:publisher": {
+            "@type": "schema:Organization",
+            "schema:name": "ABC Corporation"
+        },
+        "schema:numberOfPages": 50
+    },
+    {
+        "@id": "http://example.com/document/4",
+        "@type": "schema:Document",
+        "schema:name": "Health and Safety Manual",
+        "schema:description": "A manual outlining health and safety protocols for employees in the workplace.",
+        "schema:datePublished": "2024-04-10",
+        "schema:author": {
+          "@type": "schema:Organization",
+          "schema:name": "SafetyFirst Inc."
+        },
+        "schema:hasPart": [
+          {
+            "@type": "schema:CreativeWork",
+            "schema:name": "Emergency Evacuation Procedures",
+            "schema:description": "Procedures to follow in the event of an emergency evacuation."
+          },
+          {
+            "@type": "schema:CreativeWork",
+            "schema:name": "First Aid Training Manual",
+            "schema:description": "A guide for providing basic first aid in workplace emergencies."
+          }
+        ]
+      }
+      
+]

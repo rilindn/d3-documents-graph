@@ -1,0 +1,92 @@
+{
+  "nodes": [
+     {
+        "id": 1,
+        "name": "@id",
+        "value": "http://example.com/article"
+     },
+     {
+        "id": 2,
+        "name": "@type",
+        "value": "ScholarlyArticle"
+     },
+     {
+        "id": 3,
+        "name": "about",
+        "value": "http://id.nlm.nih.gov/mesh/D007251"
+     },
+     {
+        "id": 4,
+        "name": "@type",
+        "value": "InfectiousDisease"
+     },
+     {
+        "id": 5,
+        "name": "description",
+        "value": "An acute viral infection in humans involving the respiratory tract. It is marked by inflammation of the NASAL MUCOSA; the PHARYNX; and conjunctiva, and by headache and severe, often generalized, myalgia."
+     },
+     {
+        "id": 6,
+        "name": "code",
+        "value": ""
+     },
+     {
+        "id": 7,
+        "name": "@type",
+        "value": "MedicalCode"
+     },
+     {
+        "id": 8,
+        "name": "codeValue",
+        "value": "D007251"
+     },
+     {
+        "id": 9,
+        "name": "codingSystem",
+        "value": "MeSH"
+     },
+     {
+        "id": 10,
+        "name": "mainEntityOfPage",
+        "value": "#Discussion"
+     }
+  ],
+  "links": [
+     {
+        "source": 1,
+        "target": 2
+     },
+     {
+        "source": 1,
+        "target": 3
+     },
+     {
+        "source": 3,
+        "target": 4
+     },
+     {
+        "source": 3,
+        "target": 5
+     },
+     {
+        "source": 3,
+        "target": 6
+     },
+     {
+        "source": 6,
+        "target": 7
+     },
+     {
+        "source": 6,
+        "target": 8
+     },
+     {
+        "source": 6,
+        "target": 9
+     },
+     {
+        "source": 3,
+        "target": 10
+     }
+  ]
+}
